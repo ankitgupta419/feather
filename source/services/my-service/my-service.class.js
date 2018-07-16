@@ -5,7 +5,20 @@ class Service {
   }
 
   async find (params) {
-    return ["abc"];
+    let UserData=[{
+      'name':'ankit',
+      'address':'delhi'
+    },{
+      'name':'gaurav',
+      'address':'noida'
+    },{
+      'name':'ankur',
+      'address':'delhi'
+    },{
+      'name':'himanshu',
+      'address':'noida'
+    }]
+    return UserData;
   }
 
   async get (id, params) {
